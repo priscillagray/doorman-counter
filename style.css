@@ -1,0 +1,43 @@
+body{
+    background-image:url("img/door_white.jpg");
+    background-size: cover;
+    background-repeat:no-repeat;
+    text-align: center;
+    height: 100%;
+    background-attachment: fixed;
+    margin-left:auto;
+    margin-right:auto;
+    width: 100%;
+
+}
+h1{
+    color:slategrey;
+    margin-top:300px;
+}
+
+button{
+    background-color:transparent;
+    color:black;
+    border: solid 2px slategrey;
+    height:20px;
+    padding:10px 17px 20px 17px;
+    width:240px;
+    text-align:center;
+    margin:15px;
+    border-radius: 30px;
+    /* overflow:hidden; */
+}
+
+
+button:hover{
+    background-color:slategrey;
+    color:white;
+    border: solid 2px slategrey;
+    height:20px;
+    padding:10px 17px 20px 17px;
+    width:240px;
+    text-align:center;
+    margin:15px;
+    border-radius: 30px;
+    /* overflow:hidden; */
+}
